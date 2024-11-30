@@ -1,0 +1,26 @@
+There were 2 messages in the validator: 
+
+Warning: This document appears to be Lorem ipsum text but the html start tag has lang="en". Consider using lang="zxx" (or variant) instead.
+
+From line 1, column 16; to line 2, column 16
+
+type html>↩<html lang="en">↩<head
+
+For further guidance, consult Tagging text with no language, Declaring the overall language of a page and Choosing language tags.
+
+If the HTML checker has misidentified the language of this document, please file an issue report or send e-mail to report the problem.
+
+-----
+
+The ZXX language tag means there is no linguistic content, meaning the language is unknown. 
+
+Tags for languages I speak: 
+NL:	nl
+EN:	en
+FR:	fr
+DE:	de
+
+
+The second message in the validator was talking about the viewport meta tag. 
+The meta tag was auto-created by the !+TAB feature in the IDE. 
+It gives us the recommendation to turn on user-scalable, which is set to "no" at the moment.
